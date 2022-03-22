@@ -1,5 +1,5 @@
 {
-  description = ''Library for splitting a string into shell words'';
+  description = ''Split string into shell words'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-shlex-master.flake = false;
   inputs.src-shlex-master.owner = "SolitudeSF";
-  inputs.src-shlex-master.ref   = "refs/heads/master";
+  inputs.src-shlex-master.ref   = "master";
   inputs.src-shlex-master.repo  = "shlex";
   inputs.src-shlex-master.type  = "github";
   
