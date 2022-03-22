@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-shlex-master.flake = false;
+  inputs.src-shlex-master.ref   = "refs/heads/master";
   inputs.src-shlex-master.owner = "SolitudeSF";
-  inputs.src-shlex-master.ref   = "master";
   inputs.src-shlex-master.repo  = "shlex";
   inputs.src-shlex-master.type  = "github";
   
